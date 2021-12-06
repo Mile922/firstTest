@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/test');
 const schema = {
     name: String,
-    ages:Number,
+    age:Number,
     health:String
 }
 const mydata = mongoose.model('cats', schema);
